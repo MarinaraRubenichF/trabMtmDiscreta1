@@ -1,10 +1,4 @@
-package com.boraji.tutorial.jfreechart.scatterplot;
-
-import java.awt.Color;
-
-import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
-import javax.swing.WindowConstants;
+package modelos;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -13,6 +7,9 @@ import org.jfree.chart.plot.XYPlot;
 import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
+
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author imssbora
@@ -33,8 +30,8 @@ public class ScatterPlotExample extends JFrame {
 
 
 		//Changes background color
-		XYPlot plot = (XYPlot)chart.getPlot();
-		plot.setBackgroundPaint(new Color(255,228,196));
+		XYPlot plot = (XYPlot) chart.getPlot();
+		plot.setBackgroundPaint(new Color(255, 228, 196));
 
 
 		// Create Panel
