@@ -12,6 +12,7 @@ public class Interface extends JFrame {
 		pack(); //reorganiza a janela
 		setLocationRelativeTo(null); //centraliza
 		setVisible(true); //exibe
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); //finaliza o processo ao fechar a janela
 
 		//noinspection DanglingJavadoc
 		recalcularButton.addActionListener(e -> {
