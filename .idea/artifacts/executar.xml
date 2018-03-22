@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="executar">
+    <output-path>$PROJECT_DIR$/out/artifacts/executar</output-path>
+    <root id="archive" name="trabMtmDiscreta1.jar">
+      <element id="module-output" name="trabMtmDiscreta1" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jfree/jcommon/1.0.24/jcommon-1.0.24.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

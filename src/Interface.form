@@ -163,7 +163,7 @@
                           </grid>
                         </constraints>
                         <properties>
-                          <text value="Calcula a tangente de α"/>
+                          <text value="Calcula a tangente de α (em radianos)"/>
                         </properties>
                       </component>
                       <component id="de740" class="javax.swing.JTextPane" default-binding="true">
@@ -173,7 +173,7 @@
                           </grid>
                         </constraints>
                         <properties>
-                          <text value="Calcula o seno de α"/>
+                          <text value="Calcula o seno de α (em radianos)"/>
                         </properties>
                       </component>
                     </children>
