@@ -1,6 +1,7 @@
 import funcoes.Funcao1;
 import funcoes.Funcao2;
 import funcoes.Funcao3;
+import funcoes.Funcao4;
 
 import javax.swing.*;
 import java.awt.event.FocusAdapter;
@@ -12,6 +13,7 @@ public class Interface extends JFrame {
 	private JPanel pnlFunc1;
 	private JPanel pnlFunc2;
 	private JPanel pnlFunc3;
+	private JPanel pnlFunc4;
 	private JPanel content;
 	private JTabbedPane pnlFunc4;
 
@@ -61,6 +63,10 @@ public class Interface extends JFrame {
 		pnlFunc3.removeAll();
 		pnlFunc3.add(funcao3.plotaGrafico());
 
+        Funcao4 funcao4 = new Funcao4(alfa, maxX);
+        pnlFunc4.removeAll();
+        pnlFunc4.add(funcao4.plotaGrafico());
+
 		/** por exemplo, chama um método func1(alfa) que recalcula a função e retorna o JFreeChart pronto
 		 * aí é só colocar o gráfico no respectivo painel
 		 * */
@@ -75,5 +81,6 @@ public class Interface extends JFrame {
 		pnlFunc1 = new JPanel();
 		pnlFunc2 = new JPanel();
 		pnlFunc3 = new JPanel();
+		pnlFunc4 = new JPanel();
 	}
 }
