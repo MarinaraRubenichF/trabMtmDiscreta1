@@ -1,3 +1,8 @@
+# Executar
+1. Clique no executar.jar
+2. Clique no botão Download
+Será necessário ter o Java instalado
+
 # Bibliotecas do Maven que precisam ser importadas:
 - `org.jfree:jcommon:1.0.24`
 - `org.jfree:jfreechart:1.5.0`
