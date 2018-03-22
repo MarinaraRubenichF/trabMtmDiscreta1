@@ -1,7 +1,8 @@
 # Executar
-1. Clique no executar.jar
-2. Clique no botão Download
-  Será necessário ter o Java instalado
+1. Clique [aqui](executar.jar)
+2. Clique no botão Download  
+    - Será necessário ter o Java instalado
 
-# no código...
-- pacote modelo contém exemplos de gráficos (arquivo `bibliotecas.md` contém os links de onde foram retirados)
+# No código...
+- O pacote modelo [vide aqui](src/modelos) contém exemplos de gráficos.  
+- O arquivo [bibliotecas.md](Bibliotecas.md) contém os links de onde foram retirados.
