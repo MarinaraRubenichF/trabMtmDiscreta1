@@ -9,7 +9,7 @@ import org.jfree.data.xy.XYSeriesCollection;
 public class Funcao2 {
 	private JFreeChart chart;
 
-	public Funcao2(int valor, int maxX) {
+	public Funcao2(double valor, int maxX) {
 		XYSeriesCollection dataset = new XYSeriesCollection();
 		XYSeries series = new XYSeries(valor);
 		//gera os valores de y
@@ -20,7 +20,7 @@ public class Funcao2 {
 		dataset.addSeries(series);
 
 		//cria o gráfico
-		chart = ChartFactory.createScatterPlot(valor + " elevado ao x", "x", "f(x)", dataset);
+		chart = ChartFactory.createScatterPlot(valor + " multiplicado por x", "x", "f(x)", dataset);
 	}
 
 	public ChartPanel plotaGrafico() {

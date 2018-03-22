@@ -1,4 +1,4 @@
-# Bibliotecas do Maven que precisam ser importados:
+# Bibliotecas do Maven que precisam ser importadas:
 - `org.jfree:jcommon:1.0.24`
 - `org.jfree:jfreechart:1.5.0`
 ### Para importar pelo IntelliJ

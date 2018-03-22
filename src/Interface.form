@@ -24,7 +24,7 @@
               <text value="Valor de α"/>
             </properties>
           </component>
-          <component id="80aae" class="javax.swing.JSpinner" binding="spnValor">
+          <component id="80aae" class="javax.swing.JSpinner" binding="spnValor" custom-create="true">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -38,7 +38,7 @@
               <text value="Valor máximo de x"/>
             </properties>
           </component>
-          <component id="401b" class="javax.swing.JSpinner" binding="spnMaxX">
+          <component id="401b" class="javax.swing.JSpinner" binding="spnMaxX" custom-create="true">
             <constraints>
               <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -46,7 +46,7 @@
           </component>
         </children>
       </grid>
-      <tabbedpane id="6f190" default-binding="true">
+      <tabbedpane id="6f190">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="200" height="200"/>
@@ -163,7 +163,7 @@
                           </grid>
                         </constraints>
                         <properties>
-                          <text value="faz alguma coisa"/>
+                          <text value="Eleva α ao quadrado"/>
                         </properties>
                       </component>
                       <component id="de740" class="javax.swing.JTextPane" default-binding="true">
@@ -203,6 +203,15 @@
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Função 2"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ad436" binding="pnlFunc3" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Função 3"/>
             </constraints>
             <properties/>
             <border type="none"/>
