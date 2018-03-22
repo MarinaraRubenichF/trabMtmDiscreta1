@@ -46,7 +46,7 @@
           </component>
         </children>
       </grid>
-      <tabbedpane id="6f190" custom-create="true">
+      <tabbedpane id="6f190">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="200" height="200"/>
@@ -130,7 +130,7 @@
                       </component>
                     </children>
                   </grid>
-                  <grid id="46284" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                  <grid id="46284" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
                       <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -176,14 +176,6 @@
                           <text value="Calcula o seno de α"/>
                         </properties>
                       </component>
-                      <component id="99772" class="javax.swing.JLabel">
-                        <constraints>
-                          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                        </constraints>
-                        <properties>
-                          <text value="Defina um valor de α e clique no painel para atualizar"/>
-                        </properties>
-                      </component>
                     </children>
                   </grid>
                 </children>
@@ -196,7 +188,7 @@
                 </constraints>
                 <properties>
                   <font size="16" style="1"/>
-                  <text value="...Depois clique em uma das abas ao lado, para visualizar os gráficos."/>
+                  <text value="...depois clique em uma das abas ao lado, para visualizar os gráficos."/>
                 </properties>
               </component>
             </children>
@@ -228,7 +220,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="71d14" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="71d14" binding="pnlFunc4" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Função 4"/>

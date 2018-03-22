@@ -15,7 +15,6 @@ public class Interface extends JFrame {
 	private JPanel pnlFunc3;
 	private JPanel pnlFunc4;
 	private JPanel content;
-	private JTabbedPane pnlFunc4;
 
 	private Interface() {
 		setContentPane(content);
